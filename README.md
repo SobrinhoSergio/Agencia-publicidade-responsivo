@@ -23,12 +23,14 @@ Neste projeto foram utilizados desde o conceito, técnicas avançadas, elementos
 Os breakpoints mais utilizados
 Abaixo um guia com os tamanhos comumente utilizados como breakpoints.
 
+```
 @media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
 @media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ }
 @media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
 @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ }
+```
 
 5. Através das Media Queries é possível combinar diferentes lógicas, e assim aplicar breakpoints de acordo com a regra estabelecida.
 
@@ -40,27 +42,33 @@ Os operadores lógicos são os seguintes:
 
 **Com o operador AND, eu aplicarei uma regra somente se determinadas condições forem verdadeiras.**
 
+```
 @media (min-width: 320px) and (max-width: 800px) {
  body {
   DECLARAÇÃO CSS DESEJADA
  }
 }
+```
 
 **Com o operador OR, a regra será aplicada se uma OU outra condição for válida.**
 
+```
 @media (max-width: 800px), (min-width: 1281px) {
  body {
   DECLARAÇÃO CSS DESEJADA
  }
 }
+```
 
 **Já o operador NOT, considera uma negativa, ou seja, a condição é falsa e nesse caso a regra será aplicada.**
 
+```
 @media not all and (max-width: 400px) {
  body {
   DECLARAÇÃO CSS DESEJADA
  }
 }
+```
 
 Siga-me: [Meu GitHub](https://github.com/SobrinhoSergio):blue_heart:
 
