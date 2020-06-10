@@ -10,11 +10,13 @@ Neste projeto foram utilizados desde o conceito, técnicas avançadas, elementos
 
 3. Media Queries é uma regra na CSS que te possibilita incluir um bloco de propriedades se, e somente, se uma determinada condição for verdadeira. Um exemplo de código CSS fazendo uso de uma Media Query seria assim:
 
+```
 @media only screen and (min-width : 320px) {
   body {
     DECLARAÇÃO CSS DESEJADA
   }
 }
+```
 
 4. Os breakpoints, literalmente falando, são pontos de interrupção.
 
